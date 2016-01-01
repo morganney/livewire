@@ -1,0 +1,84 @@
+#main #r_main {
+	/*margin-top: 175px;*/
+}
+#main #l_main h2#news_awards {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 4em;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+	margin: 0 0 30px 15px;
+	padding: 13px 0 13px 85px;
+	background: transparent url(/images/lightning-bolt-sm.png) left center no-repeat;
+}
+#main #l_main .article {
+	border-top: 1px solid #a8a8a8;
+	clear: left;
+}
+#main #l_main #pub_date {
+	border: 1px solid #a8a8a8;
+	border-top: none;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	background: transparent url(/images/header-grad.png) left bottom repeat-x;
+	font-size: 1.4em;
+	color: #111;
+	width: 195px;
+	padding: 10px 15px 10px 15px;
+	margin: 0 0 23px 0;
+}
+#main #l_main .article h3 {
+	font-size: 1.8em;
+	margin: 0 0 15px 0;
+}
+#main #l_main .article h4 {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.3em;
+}
+#main #l_main img.affiliate {
+	float: left;
+	margin: 0 15px 10px 0;
+}
+#main #l_main .article h5 {
+	margin: 15px 0 0 0;
+	font-size: 1.4em;
+}
+#main .articles_nav {
+	width: 202px;
+	padding: 10px 15px;
+	height: 335px;
+	background: transparent url(/images/box-sprite.png) -474px top no-repeat;
+}
+#main .low {margin: 15px 0 0 0;}
+#main .articles_nav li {
+	margin: 21px 0 0 8px;
+	padding: 6px 20px 6px 60px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(/images/article-sprite.png);
+	background-position: left -110px;
+}
+#main .articles_nav li#lowes {
+	background-position: left top;
+}
+#main .articles_nav li#ted {
+	background-position: left -40px;
+}
+#main .articles_nav li#vail {
+	background-position: left -83px;
+}
+#main .articles_nav li#best {
+	background-position: left -155px;
+}
+#main .articles_nav li#waste {
+	background-position: left -208px;
+}
+#main .articles_nav li.lws {
+	background-position: left -256px;
+}
+#main .articles_nav li a {
+	color: #30a2c7;
+	font-size: 1.2em;
+}

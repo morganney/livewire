@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Circuit Breakers, Transformers, Fuses - LiveWire Electrical Supply
+    description:  'LiveWire is the Internet''s #1 Supplier for Circuit Breakers, Transformers, Fuses, Busway and Motor Control. Same day shipping options available on our new and certified green circuit breakers.'
+    keywords:     circuit breakers, transformers, fuses, busway, motor control, shunt trip breakers, uvr lugs, trip units, rating plugs, mounting hardware, buck-boost transformers, power distribution transformers, fuse clips, fuse reducers, fuse links, fuse blank, dummy fuses, busplugs, busduct, busway systems
+    language:     en
+    robots:       index, follow
+
+  stylesheets:    [main.css]
+
+  javascripts:    [http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js,search.js]
+
+  has_layout:     true
+  layout:         layout

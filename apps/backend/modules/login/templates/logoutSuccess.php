@@ -1,0 +1,1 @@
+<!-- Should never see this. The action just redirects back to Control Panel after logout, thereby triggering the login form since the whole application is secure. -->

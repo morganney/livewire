@@ -1,0 +1,94 @@
+#main #r_main #customer_nav {
+	width: 202px;
+	padding: 10px 15px;
+	height: 335px;
+	background: transparent url(/images/box-sprite.png) -474px top no-repeat;
+}
+#main #r_main #customer_nav li {
+	margin: 12px 0 0 0;
+	padding: 0 0 0 20px;
+}
+#main #r_main #customer_nav li.first {
+	padding-top: 30px;
+	margin-top: 0;
+	font-size: 1.4em;
+}
+#main #r_main #customer_nav li.xtra_bottom {
+	padding-bottom: 20px;
+}
+#main #r_main #customer_nav li.xtra_top {
+	padding: 19px 0 0 0;
+	border-top: 1px solid #000;
+	margin: 0 0 0 20px;
+	width: 140px;
+}
+#main #r_main #customer_nav a {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #30a2c7;
+	text-decoration: none;
+}
+#main #r_main #customer_nav li.xtra_top a {
+	text-decoration: underline;
+}
+#main #l_main .box {
+	width: 589px;
+	height: 240px;
+	margin: 0 auto;
+	background-image: url(/images/customers-sprite.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+#main #l_main .box dl {
+	position: absolute;
+	height: 0;
+	text-indent: -9000em;
+}
+#main #l_main p {
+	width: 560px;
+	padding: 30px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+#main #l_main .main {
+	position: relative;
+	width: 700px;
+	height: 293px;
+	padding: 0;
+	margin: 0;
+	clear: left;
+	background-position: center top;
+}
+#main #l_main .main h2 {
+	color: #30a2c7;
+	font-size: 3.8em;
+	font-weight: 900;
+	width: 400px;
+	position: absolute;
+	left: 40px;
+	top: 45px;
+	line-height: 38px;
+}
+#main #l_main .main p {
+	width: 315px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-weight: bold;
+	color: #555;
+	position: absolute;
+	left: 40px;
+	top: 130px;
+}
+#main #l_main .wholesale {
+	background-position: left -303px;
+}
+#main #l_main .contractors {
+	background-position: left -548px;
+}
+#main #l_main .industrial {
+	background-position: left -789px;
+}
+#main #l_main .home {
+	background-position: left -1030px;
+}

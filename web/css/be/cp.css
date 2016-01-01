@@ -1,0 +1,22 @@
+p#cp_msg {
+	font-size: 1.4em;
+	font-style: italic;
+	background-color: #f8f8be;
+	padding: 5px 0;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+.pw label {
+	display: block;
+}
+.pw p {
+	margin: 0 0 5px 0;
+}
+.pw p.low {
+	margin-bottom: 0;
+	padding: 0 0 0 20px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: transparent;
+}

@@ -1,0 +1,59 @@
+/**************** ALL ie hacks ***********************/
+form.basic p input.sbmt { left: 213px; }
+/**************** 7 AND 6 ONLY ie hacks **************/
+*:first-child+html #footer #customers { clear: none; float: left; width: 100%; } /* now IE 6 */ * html #footer #customers { clear: none; float: left; width: 100%; }
+*:first-child+html #footer #copyright {float: left;} * html #footer #copyright {float: left;}
+*:first-child+html h4#catalog a {font-size: 14px;} * html h4#catalog a {font-size: 14px;}
+*:first-child+html h4#catalog {display: block; height: 30px; padding: 20px 20px;} * html h4#catalog {display: block; height: 30px; padding: 20px 20px;}
+*:first-child+html #parts li a { font-size: 16px; } * html #parts li a { font-size: 16px;}
+*:first-child+html p#or span { padding: 1px 15px; } * html p#or span { padding: 1px 15px; }
+*:first-child+html #main #l_main #store .store_front p#bulk { background-position: -1591px 25px;} * html #main #l_main #store .store_front p#bulk { background-position: -1591px 25px; padding-bottom: 47px;}
+*:first-child+html ul.manufs {margin-bottom: -45px;} * html ul.manufs {margin-bottom: -45px;} /* no f'ing clue */
+*:first-child+html div.tip p strong {font-size: 12px;} * html div.tip p strong {font-size: 12px;} /* they didn't understand font-size: inherit very well */
+/* start IE z-index fixes : one fix exists in part.js script */
+*:first-child+html #ship_regional {z-index: -1;} * html #ship_regional {z-index: -1;} /* No fucking clue */
+*:first-child+html #ship_calc {z-index: -1;} * html #ship_calc {z-index: -1;}
+/* end IE z-index fixes */
+*:first-child+html #social form p#l {font-size: 10px;} * html #social form p#l {font-size: 10px;}
+*:first-child+html #ship_calc form input.sbmt {top: 10px;} * html #ship_calc form input.sbmt {left: 65px; top: 10px;}
+*:first-child+html #after_hours {height: 1%;} * html #after_hours {height: 1%;} /* had to trigger 'Layout' in IE. out of all the ways, this was the most useful for the purpose. See http://www.satzansatz.de/cssd/onhavinglayout.html */
+/**************** 7 ONLY ie hacks ********************/
+*:first-child+html #mid_modules #stock_box { width: 710px; }
+*:first-child+html #mid_modules #stock_search #product_categories strong { /* needed to explicitly set left: 0; */ }
+*:first-child+html #main #store p#ten { background-position: -156px 60px }
+*:first-child+html #main #l_main #store .store_front p#bulk { background-position: -1591px 25px;}
+*:first-child+html #main #l_main .intro { padding: 160px 0 55px 0;}
+/**************** 6 ONLY ie hacks ********************/
+/*
+	DEAN EDWARDS notes regarding transparent background pngs:
+	Unfortunately, the transparent background image cannot be tiled (repeated) 
+	using background-repeat. Nor can it be positioned using background-position.
+*/
+/*\*/ * html a.next { right: -14px; } /**/
+/*\*/ * html a.prev { left: -24px; } /**/
+/*\*/ * html #mid_modules .box_content { height: 284px; } /**/
+/*\*/ * html #mid_modules .box {  } /**/
+/*\*/ * html #mid_modules #stock_box { width: 710px; } /**/
+/*\*/ * html #search input.img { top: 6px; } /**/
+/*\*/ * html #mid_modules  { float: none;  } /**/
+/*\*/ * html #mid_modules #stock_search #product_categories strong { position: relative;  top: -5px;} /**/
+/*\*/ * html #mid_modules #stock_search #categories { padding-top: 0px;  } /**/
+/*\*/ * html #footer #customers dl { position: absolute; /* otherwise their height would show up */} /**/
+/*\*/ * html #cust_options { float: left;} /**/
+/*\*/ * html #main .articles_nav li { background-image: url(/images/article-sprite.gif); } /**/
+/*\*/ * html body#our_customers #main #opening { display: inline; } /**/
+/*\*/ * html #l_main #tr_search { display: inline; } /**/
+/*\*/ * html #search input.sbmt { left: 124px; top: 8px;} /**/
+/*\*/ * html div.r dl { font-size: 12px;} /**/
+/*\*/ * html #main #l_main p.pager { height: 18px;} /**/
+/*\*/ * html #kva ul li { display: inline; } /**/
+/*\*/ * html body#home #search {background-image: url(/images/h/sprite_ie6.png);} /**/
+/*\*/ * html body#home #mast_head strong a {background-image: url(/images/h/sprite_ie6.png);} /**/
+/*\*/ * html body#home #footer #customers {background-image: url(/images/h/sprite_ie6.png);} /**/
+/*\*/ * html body#home #search input.sbmt {background-image: url(/images/h/sprite_ie6.png);} /**/
+/*\*/ * html #mid_modules {background-image: url(/images/h/main-sprite.png); background-position: 10px -97px;} /**/
+/*\*/ * html #mid_modules #stock_search input.sbmt {background-image: url(/images/h/sprite_ie6.png);} /**/
+/*\*/ * html p#or span { left: 0px; } /**/
+/*\*/ * html #step p#ajax_back {left: 0px; z-index: 100;} /**/
+/*\*/ * html #rfq_box a {text-indent: 25px;} /**/
+/*\*/ * html .complete #pricing {background-position: -1579px 240px;} /**/

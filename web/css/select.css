@@ -1,0 +1,484 @@
+body#tr_select.default #opening {margin-bottom: 45px;}
+
+#main #opening li h1 span { color: #30a2c7; }
+#step_box {
+	clear:left;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center center;
+	min-height: 100px;
+	margin: 0 0 35px 0;
+}
+.step {
+	position: relative;
+	height: 34px;
+	margin: 0 0 30px 0;
+	background-image: url(/images/steps-bar-sprite.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.two {background-position: left -38px;}
+.three {background-position: left -77px;}
+.four {background-position: left -116px;}
+body#tr_select .step {margin-bottom: 45px;}
+#step_box #step {
+	position: relative; /* help position tooltip boxes */
+	border-top:1px solid #A8A8A8;
+}
+#main #step_box h2 {
+	color:#111111;
+	font-size:1.4em;
+	font-weight:normal;
+	margin:0 0 23px;
+	padding:10px 15px;
+	width:195px;
+	border: 1px solid #a8a8a8;
+	border-top: none;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	background: transparent url(/images/header-grad.png) left bottom repeat-x;
+}
+body#tr_select #step_box h2.three { width: 255px; }
+body#tr_select #step_box h2.four { width: 285px; }
+/* start kva calculator styles */
+#step_box a#kva_calc_btn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 140px;
+	padding: 14px 0;
+	padding: 12px 0 16px 0;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #fff;
+	text-decoration: none;
+	text-indent: 32px;
+	background: transparent url(/images/tell-a-friend.png) left top no-repeat;
+}
+#kva_calc {
+	width: 400px;
+	position: absolute;
+	left: 150px;
+	top: 60px;
+	z-index: 3;
+	border: 1px solid #464646;
+	background-color: #fff;
+}
+#step_box p#kva_close {
+	position: relative;
+}
+p#kva_close a {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	display: block;
+	width: 15px;
+	padding: 2px 0;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid black;
+	background-color: #fff;
+}
+#kva_calc table {
+	width: 100%;
+}
+#kva_calc table td {
+	font-size: 14px;
+	padding: 4px;
+	border-bottom: 1px solid #a8a8a8;
+	background-color: #eeeeee;
+}
+#kva_calc td.rb {
+	border-right: 1px solid #a8a8a8;
+	text-align: right;
+	background-color: #f9f9f9;
+}
+#kva_calc td.v {
+	background-color: #c0c0c0;
+	text-align: center;
+}
+#kva_calc #compute {
+	color: #008100;
+	font-weight: bold;
+}
+/* end kva calculator styles */
+#main #step_box h3 {
+	font-size: 2.4em;
+	margin: 0 0 30px 0;
+}
+#step_box span { color: #30a2c7;}
+#main #step p {
+	margin: 0;
+	clear: both;
+}
+#kva {
+	float: left;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+#kva .mod {
+	float: left;
+	width: 146px;
+	padding: 170px 0 0 0;
+	background-image: url(/images/tr-kva-sprite.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0 20px 0 0;
+}
+#kva .md {background-position: -148px top;}
+#kva .lg {background-position: -296px top;}
+#kva .xl {
+	margin-right: 0;
+	background-position: -444px top;
+}
+#kva ul {
+	float: left;
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+#kva ul li {
+	float: left;
+	width: 60px;
+	margin-top: 8px;
+}
+#kva ul li.m { margin: 8px 9px 0 9px; }
+#main #kva li a {
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+	color: #7d7d7d;
+	text-decoration: none;
+  display: block;
+  padding: 4px 0 4px 0;
+  width: 60px;
+  background: transparent url(/images/kva-btn.png) left top no-repeat;
+}
+#main #kva p {
+	margin: 0;
+	font-weight: bold;
+	color: #555;
+	font-size: 1.4em;
+	text-align: center;
+}
+ul.simple li {margin: 10px 0 0 0;}
+ul.simple li a {
+	font-size: 1.4em;
+	color: #464646;
+}
+#part_details {
+	clear: left;
+	float: left;
+	width: 100%;
+	margin: 0 0 35px 0;
+}
+#part_img {
+	width: 250px;
+	float: left;
+}
+#part_img img {
+	display: block;
+	margin: 0 auto;
+	max-width: 210px;
+	max-height: 230px;
+}
+#part_specs {
+	position: relative;
+	width: 430px; /* in effect creates 20px of margin */
+	float: right;
+	padding: 0 0 110px 0;
+	background: transparent url(/images/tr-selection-warranty.png) left bottom no-repeat;
+}
+#part_specs table {
+	color: #252525;
+	width: 100%;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#part_specs td.label {width: 75px;}
+td#stock {color: #598527;}
+#main #l_main #pay_info {
+	position: absolute;
+	top: 165px;
+	left: 65px;
+	margin: 0;
+}
+#l_main #pay_info span {
+	display:block;
+	font-size: 1.2em;
+	font-weight:bold;
+	margin:4px 0;
+	color:#30A2C7;
+}
+#l_main #pay_info a {font-size: 0.9em;}
+#green_part {
+	clear: left;
+	float: left;
+	width: 100%;
+	margin: 0 0 35px 0;
+}
+#main #green_part h3, #main #new_parts h3 {
+	background: transparent url(/images/box-sprite.png) -948px top no-repeat;
+	width: 482px;
+	font-size: 2.4em;
+	padding: 32px 0 33px 0;
+	text-indent: 35px;
+}
+#main #green_part h3 {color: #598527;}
+#green_part a#what {
+	font-size: 0.4em;
+	color: #598527;
+	position: relative;
+	top: -5px;
+	left: 20px;
+}
+.line_item {
+	float: left;
+	margin: 25px 0 0 0;
+	width: 550px;
+}
+.line_item div {
+	width: 150px;
+	float: left;
+}
+.line_item .pic {
+	width: 232px;
+	padding: 0 0 0 7px;
+	margin: 0 15px 0 0;
+}
+.line_item .btn {width: 146px;}
+.line_item input.txt {
+	border:1px solid #7D7D7D;
+	width: 55px;
+}
+.price strong {font-size: 2.4em;}
+.line_item .btn a {
+	background:url('/images/box-sprite.png') no-repeat scroll -1435px top transparent;
+	display:block;
+	height:80px;
+	text-indent:-9000em;
+	width:146px;
+}
+.line_item a.part_lnk {
+	font-size: 1.4em;
+	display: block;
+	text-align: center;
+	padding: 5px 0;
+}
+#new_parts {
+	clear: left;
+	float: left;
+	width: 100%;
+}
+#frame_types {
+	width: 700px;
+	text-align: center;
+}
+#frame_types td {padding: 8px 5px;}
+#l_main #frame_types td a {
+	display: block;
+	font-size: 1.1em;
+	color: #464646;
+	font-weight: bold;
+	margin: 3px 0 0 0;
+}
+#main #l_main h2.manuf_label {
+	margin: 0 0 10px 0;
+	/*font-size: 1.8em;*/
+}
+#main #l_main h2.manuf_label a {
+	color: #464646;
+	font-size: 1.1em;
+	text-decoration: none;
+	cursor: default;
+}
+.manuf_label img {
+	position: relative;
+	top: 2px;
+	vertical-align: middle;
+}
+body#cutler-hammer .manuf_label img, body#ge .manuf_label img, body#siemens .manuf_label img, body#thomas-betts .manuf_label img, body#wadsworth .manuf_label img { vertical-align: top; }
+body#westinghouse .manuf_label img, body#federal-pacific .manuf_label img, body#connecticut-electric .manuf_label img, body#square-d .manuf_label img { vertical-align: bottom; }
+#poles, #av {
+	float: left;
+	width: 700px;
+	padding: 0 0 25px 0;
+}
+#step_box #poles p {
+	background-image: url(/images/poles-sprite.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: left bottom;
+	float: left;
+	margin: 0 100px 30px 0;
+	clear: none;
+}
+/* discovered IE6 doesn't recoginze class selectors that start with "_" underscore. see CB selection agent DAO ~ line 65. thats why i added the "n" */
+#step_box #poles .n_1 {width: 76px;}
+#step_box #poles .n_2 {
+	width: 128px;
+	background-position: -81px bottom;
+}
+#step_box #poles .n_3 {
+	width: 227px;
+	background-position: -214px bottom;
+	margin-right: 30px;
+}
+#step_box #poles .n_4, #step_box #poles .n_TWIN, #step_box #poles .n_QUAD {
+	background-image: none;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+#step_box #poles .last {margin-right: 0;}
+#step_box #poles a {
+	display: block;
+	background-color: transparent;
+	height: 273px; /* gives 30px on top between end of background-image and start of anchor text */
+	text-align: center;
+	font-weight: bold;
+	color: #30A2C7;
+	font-size: 1.6em;
+}
+#step_box #poles ._4 a, #step_box #poles ._TWIN a, #step_box #poles ._QUAD a {height: auto;}
+#av ul.amp_volt:last-child { margin: 0 }
+#av ul.amp_volt {
+	float: left;
+	width: 700px;
+	margin: 0 0 20px 0;
+}
+ul.amp_volt li {
+	float: left;
+	margin: 0 25px 0 0;
+}
+ul.amp_volt li:last-child { margin: 0 }
+#step #av .amp_volt a {
+	color: #464646;
+	font-weight: bold;
+	font-size: 3em;
+}
+/* start tooltip design */
+img#tooltip {
+	vertical-align: middle;
+	cursor: help;
+	padding: 0 0 0 5px;
+}
+div#tip {
+	position: absolute; /* nearest relatively positioned parent is div#step */
+	z-index: 10;
+	width: 450px;
+	padding: 10px;
+	background: transparent url(/images/tooltip-bg-trans.png) right bottom;
+}
+#step #tip p {
+	margin: 0;
+	color: #fff;
+	padding: 5px 0 0 0;
+}
+#tip p em { font-weight: bold; }
+#step #tip p.q { 
+	padding: 15px 0 0 0;
+	clear: left;
+	font-weight: bold;
+}
+#step #tip p._1st {padding-top: 0}
+#tip p span { color: #38bbe5; color: #30A2C7; font-weight: bold;}
+#tip ul {
+	font-size: 1.2em;
+	margin: 5px 0 0 0;
+	color: #fff;
+}
+#tip ul strong {
+	margin: 0 5px 0 0;
+	color: #dadada;
+}
+/* end tooltip design */
+#step p#ajax_back {
+	position: absolute;
+	top: 5px;
+	left: 255px;
+	width: 35px;
+	height: 35px;
+}
+#step p#ajax_back a {display: block; width: 100%; height: 100%;}
+#step p#ajax_back a:hover { text-decoration: underline; }
+#results_wrap {
+	clear: both;
+	padding: 25px 0 25px 0;
+	border-top: 1px dashed #464646;
+}
+#step_box h3#rsf {
+  display: inline;
+	font-size: 1.8em;
+	margin: 0 10px 0 0;
+}
+#search_params {display: inline;}
+#search_params li {
+	display: inline;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #464646;
+	padding: 0 15px 0 8px;
+	background: transparent url(/images/search-divider.png) right center no-repeat;
+}
+#search_params li:first-child { padding-left: 0; }
+#search_params li.last {
+	background: none;
+	padding-right: 0;
+}
+#results {
+	clear: both;
+	height: 100px;
+}
+#results .result_set {}
+.result_set td {
+	width: 134px;
+	padding: 3px;
+}
+#results a {
+	font-size: 1.4em;
+}
+#results_nav {
+	clear: both;
+	padding: 15px 0;
+	font-size: 0.8em;
+}
+#step_box #results_nav a {
+	padding: 5px 10px;
+	font-size: 1.4em;
+}
+#step_box #results_nav a.active_set {
+	color: #30A2C7;
+	text-decoration: none;
+	cursor: default;
+}
+#step p#csr {
+	margin: 40px auto 0 auto;
+	font-size: 1.4em;
+	text-decoration: underline;
+	cursor: pointer;
+	width: 300px;
+	color: #30A2C7;
+}
+#step p#csr.kva {
+	position: absolute; /* relative to #step */
+	top: 450px;
+	left: 50px;
+	margin: 0;
+	width: 200px;
+}
+img#indy_1st {
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	top: -36px;
+}
+#input_volts li a, #output_volts li a {padding: 0 10px 0 0;}
+#input_volts li span, #output_volts li span {
+	color: #464646;
+	font-size: 1.2em;
+}
+#input_volts li span.m, #output_volts li span.m { padding: 0 2px; }

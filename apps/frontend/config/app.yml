@@ -1,0 +1,39 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+# :, [, ], { and } are reserved in YAML
+# default values
+all:
+  next_day_shipping:
+    cutoff:  154500  # 3:45:00 pm PST
+    cutoff_hour:  15
+    cutoff_min:   45
+    cutoff_sec:   0
+  seo_word_sep:  {title: -, h1: &bull;, url: -}
+  search:
+    default_queries: [Search by Part Number, Enter Part or Catalog Number, ENTER PART OR CATALOG NUMBER, '', ' ']
+    pagination_max_items:  100
+    max_routes:  11
+    max_routes_sm:  2
+    max_routes_md:  6
+  pagination_items_limit:  50 # still a string until converted
+  cb:
+    max_subcat_grouping:  14 # still a string until converted
+  parts:
+    img_dir:  http://livewiresupply.com/images/parts/  #%SF_WEB_DIR%/images/parts/
+  thumbs:
+    max_width:  110
+    max_height: 90
+    dir:  http://livewiresupply.com/images/thumbs/
+  minis:
+    max_width:   40
+    max_height:  60
+    dir:  http://livewiresupply.com/images/minis/
+  subnav_grouping:
+    top:  14
+    middle:  15
+    bottom:  8
+    max:  14
+  biz_name:  LiveWire Electrical Supply
+  biz_open:  630
+  biz_close:  1630
+  

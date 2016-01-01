@@ -1,0 +1,28 @@
+#main #l_main { min-height: 480px; }
+#main #l_main a {
+	color: #30A2C7;
+}
+body#_404 #l_main h2, body#_500 #l_main h2 {
+	margin: 0 0 3px 0;
+}
+body#_404 #l_main h3, body#_500 #l_main h3 {
+	font-size: 1.1em;
+	color:#464646;
+}
+body#_404 #l_main div {
+	font-size: 1.6em;
+	padding: 40px 10px;
+}
+body#_404 #l_main div p {
+	font-size: 1.0em;
+	margin: 0 0 10px 0;
+}
+body#_404 #l_main div li {
+	list-style: inside disc none;
+	padding: 0 0 0 10px;
+}
+div#icon_500 {
+	clear: both;
+	padding: 5px 0 5px 65px;
+	background: transparent url(/images/tools-icon.png) left center no-repeat;
+}

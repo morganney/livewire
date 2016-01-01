@@ -1,0 +1,80 @@
+#l_main form.rfq {
+	clear: left;
+	float: left;
+	width: 700px;
+}
+#main #l_main form.rfq p {
+	margin: 0;
+	padding: 5px 0;
+}
+#main #l_main form.rfq p.first { padding-top: 0; }
+#l_main form.rfq label {
+	display: block;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+#l_main form.rfq select {
+	width: 252px;
+	padding: 2px;
+}
+#l_main form.rfq input.txt {width: 246px;}
+#l_main #contact_info {
+	float: left;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+#l_main #contact_info label {
+	margin: 0;
+	padding: 2px 0;
+}
+#main #l_main #contact_info p {
+	float: left;
+	width: 100%;
+}
+#l_main #contact_info label, #l_main #contact_info input.txt {
+	float: left;
+	width: 200px;
+}
+#l_main #contact_info textarea {
+	width: 346px;
+	padding: 2px;
+}
+#l_main form.rfq input.sbmt {padding: 3px 10px;}
+#main #l_main form.rfq p#sbmt { margin: 25px 0 0 0 } 
+#categories {
+	float: left;
+	width: 100%;
+}
+#categories li {
+	background-color:transparent;
+	background-image:url("/images/quote-sprite.png");
+	background-repeat:no-repeat;
+	background-position: left top;
+	float:left;
+	height:49px;
+	margin:0 0 0 3px;
+	padding:10px 12px;
+	width:207px;
+}
+#categories li.tr { background-position: -232px top; }
+#categories li.mc { background-position: -464px top; }
+#categories li.bu { background-position: -696px top; }
+#categories li.fu { background-position: -928px top; }
+#categories li.left {margin-left: 0;}
+#categories li.top { margin-bottom: 40px;}
+#categories li a {
+	display:block;
+	font-size:1.3em;
+	font-weight:bold;
+	height:17px;
+	padding:16px 0px 16px 55px;
+	text-decoration:none;
+	width:152px;
+}
+label span, p#req_fields span {
+	color: #ff0000;
+}
+#main p#req_fields {
+	clear: left;
+	margin: 0 0 20px 0;
+}

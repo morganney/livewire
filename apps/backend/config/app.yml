@@ -1,0 +1,22 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  company:  LiveWire Supply
+  branding: BFG
+  db_err_msg:  Database error. Contact administrator at <a href='mailto:webmaster@livewiresupply.com'>webmaster@livewiresupply.com</a>
+  regex:
+    email:  /^[^@]+@[^@]+\.[^@]+$/
+    phone:  /\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}/
+  formats:
+    date:   m/d/Y
+    ext_date:  m/d/Y @ h:i a
+    date_email: l M jS, Y
+  serps:
+    default: 100
+    ajax:  5
+  email:
+    url_prefix:  
+
+    

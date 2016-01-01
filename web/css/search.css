@@ -1,0 +1,119 @@
+body.search #main #opening { margin-bottom: 20px }
+body.search #main #l_main { min-height: 480px;}
+body.search #expert_box{margin: 25px 0 0 0;}
+.desc {clear: left;}
+.desc li {
+	font-size: 1.2em;
+	display: inline;
+	padding: 0 10px;
+}
+.desc li.b {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+#srch_results {
+	width: 700px;
+  float: left;
+  margin: 15px 0;
+}
+#srch_results li {
+	padding: 5px 0;
+	height: 100px;
+	overflow: hidden;
+	width: 49%;
+	float: left;
+	border-bottom:1px dashed #7D7D7D;
+}
+#srch_results li.b { border-bottom: none; }
+#srch_results table {
+	width: 100%;
+	height: 100%;
+	font-size: 1.3em;
+}
+#srch_results td.thumb {
+	width: 17%;
+	text-align: center;
+	padding: 0 10px 0 0;
+}
+#srch_results a {
+	font-weight: bold;
+	display: block;
+	margin: 0 0 5px 0;
+}
+#main #l_main p.pager {padding: 0 0 0 7px;}
+#main #l_main p.pager a {
+	margin: 0 3px;
+	color:#30A2C7;
+}
+p.pager span {margin: 0 3px;}
+.srch_links {
+	background:url(/images/box-sprite.png) no-repeat left -327px transparent;
+	height:84px;
+	padding:18px 15px 10px 15px;
+	width: 202px;
+}
+.medium {
+	background:url(/images/box-sprite.png) no-repeat -711px top transparent;
+	height:188px;
+	padding:20px 15px 10px 15px;
+	width: 202px;
+}
+.large {
+	background:url(/images/box-sprite.png) no-repeat -474px top transparent;
+	height:330px;
+	padding:15px 15px 10px 15px;
+	width: 202px;
+}
+.srch_links h4, #srch_links_aux h4 {font-size: 1.2em;}
+.srch_links li, #srch_links_aux li {padding: 5px;}
+.srch_links a, #srch_links_aux a {
+	color: #30A2C7;
+	font-size: 1.2em;
+}
+#srch_links_aux {
+	background:url(/images/box-sprite.png) no-repeat -711px top transparent;
+	height:190px;
+	padding:15px 15px 10px 15px;
+	width: 202px;
+	margin: 25px 0 0 0;
+}
+body.search #biz_features {margin-top: 25px;}
+
+#main #l_main #opening h3 {
+clear: both;
+font-size: 1.6em;
+}
+#nosearch span {
+font-weight: bold;
+}
+#nosearch strong {
+color: #00AEEF;
+}
+#product_srch {
+	width: 232px;
+	text-align: center;
+	
+}
+
+#product_srch li {
+	margin: 15px 0 0 0;
+}
+#product_srch  a {
+	display: block;
+	width: 232px;
+	height: 70px;
+	font-size: 1.3em;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: transparent;
+	background-image: url(/images/prod-category-sprite.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -9000em;
+}
+
+#product_srch .trans{background-position:left -78px;}
+#product_srch .motor_c {background-position:left -156px;}
+#product_srch .bus{background-position:left -232px;}
+#product_srch .fuses{background-position:left -310px;}
+#product_srch .med_v{background-position:left -388px;}

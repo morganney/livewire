@@ -1,0 +1,2 @@
+<!-- database down/error or somebody is url surfing -->
+<p>Sorry, we are having technical difficulties with our database. Please contact technical support at <a href='mailto:webmaster@livewiresupply.com'>webmaster@livewiresupply.com</a></p>

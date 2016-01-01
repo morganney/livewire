@@ -1,0 +1,2 @@
+
+<p>Sorry, we're currently experiencing technical difficulties.  Your email was not sent.  Call <strong>800-390-3299</strong> to speak to a sales representative or email the <strong><a href='mailto:webmaster@lilvewiresupply.com'>webmaster</a></strong> for support. Thanks for your patience.</p>

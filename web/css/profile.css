@@ -1,0 +1,46 @@
+#main #r_main #profile_nav {
+	width: 202px;
+	padding: 10px 15px;
+	height: 335px;
+	background: transparent url(/images/box-sprite.png) -474px top no-repeat;
+}
+#main #r_main #profile_nav li {
+	margin: 12px 0 0 0;
+	padding: 0 0 0 20px;
+	font-size: 1.2em;
+	color: #636363;
+}
+#main #r_main #profile_nav li.first {
+	padding-top: 30px;
+	margin-top: 0;
+}
+#main #r_main #profile_nav li.xtra_bottom {
+	padding-bottom: 20px;
+}
+#main #r_main #profile_nav li.xtra_top {
+	padding: 19px 0 0 0;
+	border-top: 1px solid #000;
+	margin: 0 0 0 20px;
+	width: 160px;
+}
+#main #r_main #profile_nav li a {
+	font-weight: bold;
+	color: #30a2c7;
+	text-decoration: none;
+	display: block;
+}
+#main #r_main #profile_nav li.xtra_top a {
+  text-decoration: underline;
+}
+#main #l_main #profile {
+	clear: left;
+	padding: 85px 0 0 235px;
+	min-height: 320px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: transparent;
+}
+#main #l_main #profile p {
+	font-size: 1.4em;
+	color: #636363;
+}

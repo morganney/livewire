@@ -1,0 +1,204 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+damaged_tr:
+  url:   /damaged-transformer
+  param: { module: toolkit, action: playground }
+
+php_info:
+  url:   /i
+  param: { module: toolkit, action: phpInfo }
+
+stop_ga_tracking:
+  url:   /stop-ga-tracking
+  param: { module: toolkit, action: stopGaTracking }
+
+playground:
+  url:   /playground
+  param: { module: toolkit, action: playground }
+
+tell_a_friend:
+  url:   /tell-a-friend
+  param: { module: toolkit, action: tellFriend }
+
+faqs:
+  url:   /faqs.html
+  param: { module: toolkit, action: faqs }
+
+no_js:
+  url:   /javascript-not-enabled-msg
+  param: { module: toolkit, action: nojavascript }
+
+testing:
+  url:  /testing
+  param: { module: toolkit, action: testing }
+
+ship_calculator:
+  url:    /shipping-rate
+  param:  { module: toolkit, action: upsRate }
+
+thumbs:
+  url:    /thumbs/:img_file.:sf_format
+  param:  { module: toolkit, action: thumbs }
+  requirements:
+    sf_format: (?:jpg|gif|png)
+
+sub_pagination:
+  url:    /:cat_slug/:manuf_slug/:subcat_slug/:section/:page_num.html
+  param:  { module: toolkit, action: subpagination }
+  requirements:
+    section:  \.?.+?$  # some sections will contain a '.', e.g. kva
+
+#subcategory:
+#  url:    /:cat_slug/:manuf_slug/:subcat_slug/:section/
+#  param:  { module: toolkit, action: subpagination, page_num: page-1 }
+#  requirements:
+#    section:  \.?.+?$  # some sections will contain a '.', e.g. kva
+
+pagination:
+  url:    /:cat_slug/:manuf_slug/catalog/:page_num.html
+  param:  { module: toolkit, action: pagination }
+
+#catalog:
+#  url:    /:cat_slug/:manuf_slug/catalog/
+#  param:  { module: toolkit, action: pagination, page_num: page-1 }
+
+search_pagination:
+  url:    /search/:query/:page_num.html
+  param:  { module: toolkit, action: searchPagination }
+  requirements:
+    query:  \.?.+?$  # some part numbers have a '.'
+
+tr_select:
+  url:  /electrical-transformers/select
+  param: { module: electrical_transformers, action: select }
+
+part:
+  url:    /:cat_slug/:manuf_slug/:part_no.html
+  param:  { module: toolkit, action: part }
+  requirements:
+    part_no:  \.?.+?$  # some part numbers have a '.'
+
+quotes:
+  url:   /quote-request/
+  param: { module: rfq, action: index }
+
+rfq:
+  url:    /quote-request/:category.html
+  param:  { module: rfq, action: rfq }
+  
+news_pdf:
+  url:    /news-and-awards/:title_slug.pdf
+  param:  { module: toolkit, action: articlePDF }
+
+customer_profiles:
+  url:    /customer-profiles/:name_slug.html
+  param:  { module: toolkit, action: customerProfile }
+
+our_customers:
+  url:    /our-customers.html
+  param:  { module: toolkit, action: ourCustomers }
+
+news_awards:
+  url:    /news-and-awards/:title_slug.html
+  param:  { module: toolkit, action: article, title_slug: livewire-awarded-ted-magazine-best-of-the-best-2009 }
+
+news_canonical:
+  url:    /news-and-awards/
+  param:  { module: toolkit, action: canonicalNews }
+
+returns_warranty:
+  url:    /returns-and-warranty.html
+  param:  { module: toolkit, action: warranty }
+
+go_green:
+  url:    /certified-green.html
+  param:  { module: toolkit, action: certifiedGreen }
+
+shipping_options:
+  url:   /shipping-options.html
+  param: { module:  toolkit, action: shippingOptions }
+
+medium_voltage:
+  url:   /medium-voltage/
+  param: { module: medium_voltage, action: index }
+
+fuses:
+  url:   /fuses/
+  param: { module: fuses, action: index }
+
+fu_manuf:
+  url:   /fuses/:manuf_slug.html
+  param: { module: fuses, action: manuf }
+
+bu_select:
+  url:   /select/busway
+  param: { module: busway, action: select }
+
+bu_manuf:
+  url:   /busway/:manuf_slug.html
+  param: { module: busway, action: manuf }
+
+busway:
+  url:   /busway/
+  param: { module: busway, action: index }
+
+mc_manuf:
+  url:   /motor-control/:manuf_slug.html
+  param: { module: motor_control, action: manuf }
+
+motor_control:
+  url:   /motor-control/
+  param: { module: motor_control, action: index }
+
+tr_manuf:
+  url:   /electrical-transformers/:manuf_slug.html
+  param: { module: electrical_transformers, action: manuf }
+
+electrical_transformers:
+  url:   /electrical-transformers/
+  param: { module: electrical_transformers, action: index }
+
+cb_select:
+  url:   /circuit-breakers/select
+  param: { module: circuit_breakers, action: select }
+
+cb_manuf:
+  url:   /circuit-breakers/:manuf_slug.html
+  param: { module: circuit_breakers, action: manuf }
+
+circuit_breakers:
+  url:   /circuit-breakers/
+  param: { module: circuit_breakers, action: index }
+
+contact_us:
+  url:   /contact-us.html
+  param: { module: contact_us, action: index }
+
+sell_to_lws:
+  url:   /sell-to-livewire.html
+  param:  { module: sell_to_livewire, action: index }
+
+products:
+  url:   /products.html
+  param: { module: products, action: index }
+
+about_us:
+  url:   /about-us.html
+  param:  { module: about_us, action: index }
+
+part_search:
+  url:    /search
+  param:  { module: toolkit, action: liveSearch }
+
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+default_index:
+  url:   /:module/
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+

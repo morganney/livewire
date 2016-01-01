@@ -1,0 +1,242 @@
+.module {
+	margin: 0 0 15px 0;
+}
+.btm {margin-bottom: 0;}
+.module h3, h3#nh {
+	font-size: 1.4em;
+	background-color: #30A2C7;
+	color: #fff;
+	padding: 5px 10px;
+	float: left;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+}
+.mod_data {
+	clear: left;
+	position: relative;
+	border: 2px solid #30A2C7;
+	border-bottom: 1px solid #30A2C7;
+	border-right: 1px solid #30A2C7;
+	background-color: #e3e3e3;
+}
+
+
+
+.module table {width: 100%;}
+.module td {
+	font-size: 13px;
+	background-color: #fff;
+	padding: 2px;
+	border-right: 1px solid #30A2C7;
+	border-bottom: 1px solid #30A2C7;
+	/*vertical-align: top; only useful for new purchasing design */
+}
+.module td.xxs {width: 35px;}
+.module td.xms {width: 65px;}
+.module td.xsm {width: 75px;}
+.module td.sm {width: 100px;}
+.module td.md {width: 120px;}
+.module td.mmd {width: 125px;}
+.module td.lg {width: 140px;}
+.module td.xlg {width: 275px;}
+.module td.xlg span {font-weight: normal; font-size: 11px;}
+.module td.rqx_edit,.module td.vmx_edit, .module td.rfq_edit {width: 15px; padding:1px;}
+.module .tags td, .module .tags {
+	font-weight: bold;
+	background-color: #e3e3e3;
+}
+
+
+.module td.r {
+	text-align: right;
+	width: 200px;
+}
+td.qte {
+	font-style: italic;
+}
+td.qte input {
+	background-color: #E1FFD1;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.pu td.r { width: auto; }
+.module td.c {
+	text-align: center;
+}
+.module input.txt, .module select, .module textarea {
+	padding: 0px 0;
+	width: 100%;
+}
+.module select {border-width: 1px;}
+.module input.txt, .module textarea {border: 1px inset #F0F0F0;}
+body.rfq .module input.txt {
+	/*border: none;*/
+}
+body.rfq .module input.border {
+	border: 1px inset #F0F0F0;
+}
+.module input.txt { width: 99%;  }
+.module input.qty {width: 97%;}
+.module textarea { min-height: 45px;}
+.module input.file {
+	background-color: #fff;
+	cursor: pointer;
+}
+.module input.req {
+	background-color: #FFFFCC;
+}
+.module select.req {
+	background-color: #FFFFCC;
+	border-width: 1px;
+}
+.module td.req {
+	color: #990000;
+}
+div.module .disabled {
+	/*
+	background-color: #f0f0f0;
+	color: #6d6d6d;
+	color: #333;
+	*/
+	background-color: #ffffff;
+	color: #666;
+	cursor: default;
+	
+}
+input.btn {
+	padding: 0 8px;
+	cursor: pointer;
+}
+td.notes {
+	position: relative;
+}
+#add_rqx, #sub_rqx {
+	position: absolute;
+	top: -25px;
+	left: 145px;
+}
+#add_vmx, #sub_vmx {
+	position: absolute;
+	left: 105px;
+	top: -25px;
+}
+#add_rqx a, #sub_rqx a, #add_vmx a, #sub_vmx a {
+	display: block;
+  background-color: #ECECEC;
+  border: 1px solid #30A2C7;
+  font-size: 16px;
+  width: 15px;
+  line-height: 0px;
+  padding: 8px 0;
+  text-align: center;
+}
+#sub_rqx { left: 170px;}
+#sub_vmx { left: 130px;}
+#add_rqx a:hover, #sub_rqx a:hover, #add_vmx a:hover, #sub_vmx a:hover {
+	color: #fff;
+	background-color: #30A2C7;
+}
+p#btns {
+	margin: 10px 0 0 0;
+	padding: 5px;
+	text-align: right;
+	background-color: #a8a8a8;
+	border: 1px solid #999;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 5px;
+}
+ul#be_users {
+	list-style: none;
+	float: left;
+	width: 100%;
+}
+ul#be_users li {
+	float: left;
+	padding: 0 0 0 10px;
+}
+td.rqx_edit a, td.vmx_edit a, td.rfq_edit a {
+	display: block;
+	width: 100%;
+	height: 20px;
+	background: transparent url(/images/be/edit-icon.png) left center no-repeat;
+}
+td.clicked {
+	background: #fff url(/images/be/left-arrow.png) center center no-repeat;
+}
+h3#nh {
+	float: none;
+	width: auto;
+	margin: 10px 0 0 0;
+
+}
+#notes {
+	border: 1px solid #30A2C7;
+}
+.note {
+	border-top: 1px dashed #a8a8a8;
+	padding: 10px;
+}
+#notes div:first-child {border-top: none;}
+.note ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.note li { 
+	font-size: 1.2em;
+	color: #5169B3;
+	margin: 0 0 2px 0;
+}
+.note li.l {margin-bottom: 0;}
+.note li span { 
+	font-weight: bold;
+	padding-right: 2px; 
+}
+.note p {
+	padding-left: 10px;
+	border-left: 1px solid #a8a8a8;
+}
+.note .meta {
+	color: #5169B3;
+	text-align: right;
+	font-size: 10px;
+	padding-left: 0;
+	border-left: none;
+}
+.external {
+	background: #E1FFD1 url(/images/be/stamp-icon.jpg) 950px 10px no-repeat;
+}
+.internal {
+	background: #FFFF99 url(/images/be/tac-icon.png) 950px 10px no-repeat;
+}
+.module td.tbl_cell {
+	border: none;
+	padding: 0;
+}
+.module table.inner td {
+	
+	
+}
+
+.tbl_ph td {
+ 	font-size:11px;
+ 	white-space:nowrap;	
+ 	text-align:left;
+ 	border:0px;
+ 	padding:0px;
+}
+
+.tbl_ph table {
+	vertical-align:top;
+	
+}
+
+.tbl_ph .green { 
+	color:#005500;
+}
+
+.grey { 
+	color:#666666;
+}

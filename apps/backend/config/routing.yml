@@ -1,0 +1,108 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+update_password:
+  url:   /update-password
+  param: { module: ajax, action: updatePassword }
+
+ns_price:
+  url:   /ns-price
+  param:  { module: ajax, action: nsPrice }
+
+purchase_history:
+  url:   /purchase-history
+  param:  { module: ajax, action: purchaseHistory }
+
+rfq:
+  url:   /call-center/rfq/:ticket_id
+  param: { module: call_center, action: rfq }
+  requirements: { ticket_id: \d+ }
+
+new_support:
+  url:   /call-center/customer/:id/new-support-ticket
+  param: { module: call_center, action: newSupport }
+  requirements: { id: \d+ }
+
+new_tracking:
+  url:   /call-center/customer/:id/new-tracking-ticket
+  param: { module: call_center, action: newTracking }
+  requirements: { id: \d+ }
+
+new_return:
+  url:   /call-center/customer/:id/new-return-ticket
+  param: { module: call_center, action: newReturn }
+  requirements: { id: \d+ }
+
+new_rfq:
+  url:   /call-center/customer/:id/new-rfq-ticket
+  param: { module: call_center, action: newRfq }
+  requirements: { id: \d+ }
+
+edit_customer:
+  url:   /call-center/customer/:id/edit
+  param: { module: call_center, action: editCustomer }
+  requirements: { id: \d+ }
+
+customer:
+  url:   /call-center/customer/:id
+  param: { module: call_center, action: customer }
+  requirements: { id: \d+ }
+
+confirm_new_cust:
+  url:   /call-center/save-new-customer
+  param: { module: call_center, action: confirmNewCustomer }
+
+similar_customers:
+  url:   /call-center/confirm-new-customer
+  param: { module: call_center, action: similarCustomers }
+
+new_customer:
+  url:   /call-center/new-customer
+  param: { module: call_center, action: newCustomer }
+
+update_pricing:
+  url:   /update-pricing
+  param: { module: clarity, action: priceUpdate }
+
+view:
+  url:   /view/:part_no
+  param: { module: clarity, action: view }
+
+find:
+  url:   /find
+  param: { module: clarity, action: find }
+
+cc_search:
+  url:   /call-center/search
+  param: { module: call_center, action: search }
+
+call_center:
+  url:   /call-center
+  param: { module: call_center, action: index }
+
+cms:
+  url:   /cms
+  param: { module: cms, action: index }
+
+logout:
+  url:   /logout
+  param: { module: login, action: logout }
+
+js_disabled:
+  url:  /javascript
+  param: { module: clarity, action: noJSMsg }
+
+control_panel:
+  url:   /
+  param: { module: clarity, action: index }
+
+testing:
+  url:   /testing
+  param: { module: clarity, action: testing }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

@@ -1,0 +1,374 @@
+* { padding: 0; margin: 0; }
+body {
+	font-size: 62.5%; /* 1em = 10px */
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	background-color: #30A2C7;
+	background-color: #fafafa;
+	background-color: black;
+	background-color: #f5f5dc;
+}
+a {
+	color: #30A2C7;
+	text-decoration: none;
+}
+a:visited {
+	color: #30A2C7;
+}
+a.btn, #actions a {
+	display: block;
+	padding: 10px 0;
+	font-size: 1.8em;
+	text-align: center;
+	border: 1px solid #30A2C7;
+	background-color: #ececec;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+a.btn:hover, #actions a:hover {
+	background-color: #30A2C7;
+	color: #fff;
+}
+p {
+	font-size: 1.3em;
+}
+p.user_msg {
+	background-color: #ffff99;
+	font-weight: bold;
+	font-style: italic;
+	padding: 5px 0 5px 5px;
+	margin: 0 0 10px 0;
+	color: #990000;
+	border: 1px dotted #ffff00;
+}
+p.user_msg em {
+	text-decoration: underline;
+}
+h2 {
+	color: #222;
+	font-size: 2em;
+	font-style: italic;
+	padding: 0 0 3px 0;
+	border-bottom: 1px solid black;
+	margin: 0 0 15px 0;
+}
+input.sbmt {
+ padding: 1px 2px;
+ cursor: pointer;
+}
+p.req input, p.req textarea {
+	background-color: #ffffcc;
+}
+label {
+	
+}
+p.req label {
+	color: #990000;
+	font-weight: bold;
+}
+.invisible, .hide {display:none;}
+div#shell {
+	width: 1060px;
+	margin: 15px auto;
+	background-color: #fff;
+	border: 1px solid #464646;
+	border: 1px solid #EBEBD4;
+}
+body#login div#shell {
+	width: 400px;
+	margin: 100px auto 0 auto;
+	border: 1px solid #f4f4f4;
+}
+div#skin {
+	padding: 20px;
+}
+#header {
+	position: relative;
+	background-color: white;
+	float: left;
+	width: 100%;
+}
+#pre_nav {
+	float: left;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+#header h1 {
+	position: relative;
+	float: left;
+	font-size: 2em;
+	height: 71px;
+	width: 300px;
+}
+#header h1 a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 70px;
+	height: 71px;
+	text-indent: -9000px;
+	background: transparent url(/images/lightning-bolt-sm.png) left top no-repeat;
+}
+#header h1 em {
+	display: block;
+	position: absolute;
+	left: 80px;
+	top: 10px;
+	width: 200px;
+}
+#user_portal {
+	float: right;
+	position: relative;
+	width: 450px;
+}
+#user_portal ul.hot_links {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+ul.hot_links {
+	list-style: none;
+	padding: 5px 0;
+}
+ul.hot_links li {
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #999;
+}
+ul.hot_links li.l {
+	border-right: none;
+}
+#find_box {
+	position: absolute;
+	top: 20px;
+	right: 5px;
+	padding: 10px 0;
+}
+#find_box input.txt {
+	width: 175px;
+	padding: 0;
+	font-size: 12px;
+}
+/* nav styles */
+#nav {
+	list-style: none;
+	background: transparent url(/images/header-grad.png) left bottom repeat-x;
+  float: left;
+  width: 1018px;
+  width: 100%;
+  border: 1px solid #A8A8A8;
+}
+#nav li {
+	float: left;
+}
+#nav li a {
+	display: block;
+	text-align: center;
+	font-size: 1.6em;
+	padding: 8px 0;
+	width: 125px;
+	text-decoration: none;
+	border-right: 1px solid #A8A8A8;
+	font-weight: bold;
+	color: black;
+}
+#nav li a:visited {
+	color: black;
+}
+#nav li a:hover {
+	background-color: #A8A8A8;
+	color: #ededed;
+}
+body#call_center a#nav_cc, body#clarity a#nav_cp, body#cms a#nav_cms {
+	background-color: #A8A8A8;
+	color: #ededed;
+}
+
+.sub_nav {
+	list-style: none;
+	background: #A8A8A8;;
+  float: left;
+  width: 1018px;
+  width: 100%;
+  border: 1px solid #A8A8A8;
+  border-top: none;
+}
+.sub_nav li {
+	float: left;
+}
+.sub_nav li a {
+	display: block;
+	text-align: center;
+	font-size: 1.6em;
+	padding: 8px 0;
+	width: 125px;
+	text-decoration: none;
+	border-right: 1px solid #A8A8A8;
+	font-weight: bold;
+}
+.sub_nav li a:visited {
+	color: black;
+}
+.sub_nav li a:hover {
+	color: #ededed;
+}
+body#call_center.index .sub_nav a#cc_nav_home, body#call_center.reports a#cc_nav_reports {
+	background-color: #A8A8A8;
+	color: #ededed;
+}
+/* end nav styles */
+
+
+#main {
+	clear: both;
+	min-height: 450px;
+	padding: 20px 10px;
+}
+
+/* Login styles */
+body#login div#skin {padding: 0}
+body#login h1 {
+	padding: 22px 15px 22px 0;
+	background: transparent url(/images/be/bolt-icon.png) 15px center no-repeat;
+	font-size: 2.2em;
+	text-align: right;
+	font-style: italic;
+	background-color: #fff;
+	border: 1px solid #999;
+	border-bottom: none;
+}
+div#lgn {
+	margin: 0 auto;
+	position: relative;
+	background-color: #dee2e6;
+	padding: 35px 25px 20px 25px;
+	border: 1px solid #999;
+}
+#lgn form {
+	font-weight: bold;
+	float: left;
+}
+#lgn label {
+	display: block;
+	float: left;
+	width: 135px;
+	font-size: 1.4em;
+}
+#lgn input.txt {
+	display: block;
+	float: right;
+	width: 200px;
+	font-size: 1.1em;
+	padding: 3px;
+	border: 1px solid #999;
+}
+#lgn p {
+	float: left;
+	width: 100%;
+	padding-top: 10px;
+}
+#lgn p.top {
+	padding-top: 0;
+}
+#lgn p.btm {
+	text-align: right;
+}
+#lgn #log_in {
+	padding: 2px 6px;
+	font-size: 1.2em;
+	cursor: pointer;
+	font-style: italic;
+}
+#lgn p#msg {
+	position: absolute;
+	font-size: 1.4em;
+	font-style: italic;
+	top: -0px;
+	left: 0px;
+	background-color: #f8f8be;
+	padding: 5px 0;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+/* END login styles */
+
+#footer {
+	clear: both;
+	background: transparent url(/images/header-grad.png) left bottom repeat-x;
+	border: 1px solid #A8A8A8;
+}
+/***************** A customer record table, and a list of actions should always go next to eachother ******************/
+.cust_rec {
+	float: left;
+	width: 648px;
+	margin: 0 50px 0 0;
+	border: 1px solid #a8a8a8;
+	border-bottom: none;
+}
+.cust_rec td {
+	padding: 5px 7px;
+	border-bottom: 1px solid #a8a8a8;
+	font-size: 1.3em;
+	font-style: italic;
+}
+.cust_rec td.tag {
+	width: 110px;
+	border-right: 1px solid #a8a8a8;
+	font-weight: bold;
+	background-color: #F5F6FB;
+	text-align: right;
+	font-style: italic;
+}
+.cust_rec td em {
+	color: #cc6600;
+}
+ul#actions {
+	float: left;
+	width: 300px;
+	list-style: none;
+}
+ul#actions li {
+	margin: 0 0 10px 0;
+}
+ul#actions li.l { margin-bottom: 0 }
+/*****************************END CUST REC & ACTIONS: be sure to clear:both whatever element follows this construct *******/
+#enable_js li {
+	font-size: 1.3em;
+	margin: 0 0 5px 0;
+}
+#enable_js ul {
+	margin: 5px 0 0 20px;
+}
+/**** start general table styles ****/
+table.lws_be {
+	clear: both;
+	width: 100%;	
+}
+table.lws_be caption {
+   border-bottom: 1px solid black;
+   font-size: 2em;
+   font-style: italic;
+   font-weight: bold;
+   margin: 0 0 15px;
+   padding: 0 0 3px;
+   text-align: left;
+}
+table.lws_be caption a {font-size: 13px;}
+table.lws_be th {
+   background-color: #FEF9DC;
+   background-color: white;
+   border-bottom: 2px solid #A8A8A8;
+   font-size: 1.3em;
+   padding: 5px 0;
+   text-align: left;
+}
+table.lws_be td {
+	 background-color: #F5F6FB;
+   border-bottom: 1px solid #A8A8A8;
+   font-size: 1.3em;
+   padding: 5px 0;
+}
+table.lws_be tr.e td { background-color: #FFFFFF; }
+table.lws_be tr:last-child td {border-bottom: none;}
+/***** end general table styles ****/

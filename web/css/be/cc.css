@@ -1,0 +1,38 @@
+h2 a, h2 span {
+	font-size: 13px;
+}
+h2 span {font-weight: normal;}
+form.search {
+	position: relative;
+	margin: 0 0 20px 0;
+}
+form.search .serps {
+	position: absolute;
+	left: 0;
+	top: 31px;
+	width: 320px;
+	cursor: pointer;
+	border: 1px solid #a8a8a8;
+	border-top: none;
+	background-color: #fff;
+	z-index: 2;
+}
+#tick_serps {
+	top: 75px;
+}
+.qx_serp {
+	padding: 5px;
+	border-top: 1px dashed #a8a8a8;
+}
+.qx_serp:hover {
+	background-color: #F5F6FB;
+}
+input.txt {
+	width: 310px;
+	padding: 5px;
+	font-size: 16px;
+}
+input.srch_btn {
+	padding: 5px;
+	cursor: pointer;
+}

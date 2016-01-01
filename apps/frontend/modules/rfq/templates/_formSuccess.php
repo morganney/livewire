@@ -1,0 +1,1 @@
+<p>Your request for a quote has been received successfully, thank you.  A LiveWire Electrical Supply sales representative will contact you shortly.  For immediate questions please call 800-390-3299.</p>

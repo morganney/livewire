@@ -1,0 +1,37 @@
+label {
+	display: block;
+}
+form#new_cust, form#edit {
+	float: left;
+	width: 650px;
+	margin: 0 50px 0 0;
+}
+.cust_rec {
+	margin-right: 0;
+	float: none;
+}
+.cust_rec td {font-style: normal;}
+.cust_rec td.tag {font-style: italic;}
+.cust_rec input, textarea {
+	width: 500px;
+	background-color: #f3f3f3;
+}
+select {background-color: #f3f3f3;}
+.cust_rec td.phone input {width: auto;}
+#cust_btns {margin: 10px 0 0 0;}
+#cust_btns input {
+	width: 100%;
+	padding: 5px 0;
+	font-weight: bold;
+	cursor: pointer;
+}
+body.newCustomer #cust_btns input {
+	width: 24%;
+}
+#cust_btns #save_cust { width: 75%; }
+td.reg {
+	color: #990000;
+}
+.cust_rec input.req{
+	background-color: #FFFFCC;
+}
